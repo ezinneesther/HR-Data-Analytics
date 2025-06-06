@@ -15,7 +15,7 @@ Employee attrition is a critical concern in any organization. High turnover rate
 
 However, many organizations struggle to understand **why** employees leave. The lack of visibility into employee behavior, satisfaction, and engagement metrics often hinders proactive interventions.
 
-## ✅ Solution
+## Solution
 
 This HR Analytics Dashboard solves the problem by:
 
@@ -24,17 +24,14 @@ This HR Analytics Dashboard solves the problem by:
 - Visualizing relationships between factors like **Job Satisfaction**, **Overtime**, **Monthly Income**, and **Attrition**
 - Enabling HR managers to make **data-driven decisions** about employee retention strategies
 
----
 
-## 📊 Tools & Technologies
+## Tools & Technologies
 
 - **Power BI**: Data Visualization
 - **Excel**: Data Cleaning
 - **DAX**: For calculated measures (Attrition Rate, Age Grouping, etc.)
 - **Power Query Editor**: For data transformation
-
----
-
+  
 ## Dataset
 
 The dataset includes various employee attributes such as:
@@ -50,8 +47,6 @@ The dataset includes various employee attributes such as:
 | Years At Company | Employee tenure |
 | Overtime | Yes/No |
 | Job Role | Position held |
-
----
 
 ## Exploratory Data Analysis (EDA)
 
@@ -71,7 +66,6 @@ DIVIDE(
   0
 ).
 ```
----
 ## Dashboard Visualizations
 
 The Power BI dashboard contains:
