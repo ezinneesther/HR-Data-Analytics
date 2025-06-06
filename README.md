@@ -84,7 +84,7 @@ The Power BI dashboard contains:
 - **Overtime workers** are significantly more likely to leave.
 - **Sales and R&D departments** show lower job satisfaction compared to HR.
 - A large portion of employees **leave within the first 2–3 years**, suggesting onboarding gaps.
-- **Higher income** doesn't always correlate with higher retention — culture and satisfaction matter more.
+- **Higher income** doesn't always correlate with higher retention, culture and satisfaction matter more.
 
 ## Conclusion
 
