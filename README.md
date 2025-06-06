@@ -1,12 +1,12 @@
 # HR Analytics Dashboard – Power BI Project
 
-## 📌 Overview
+## Overview
 
 This project explores employee attrition and engagement trends using an HR dataset. It leverages Power BI for interactive visualization and storytelling. The core objective is to **identify factors that influence employee turnover** and to provide actionable insights for HR departments.
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 Employee attrition is a critical concern in any organization. High turnover rates lead to:
 
@@ -38,7 +38,7 @@ This HR Analytics Dashboard solves the problem by:
 
 ---
 
-## 🗂 Dataset
+## Dataset
 
 The dataset includes various employee attributes such as:
 
@@ -55,52 +55,8 @@ The dataset includes various employee attributes such as:
 | Job Role | Position held |
 
 ---
-## 📈 Dashboard Visualizations
 
-The Power BI dashboard contains:
-
-- **KPI Cards**: Attrition Rate, Average Years at Company
-- **Bar Charts**: Attrition by Department, Job Satisfaction by Department
-- **Pie Chart**: Overtime vs Attrition Distribution
-- **Stacked Bar**: Age Group vs Attrition
-- **Line Chart**: Monthly Income Trend across Job Roles
-- **Table View**: Selected Employee Details
-
----
-
-## 📌 Insights
-
-- **Employees aged 31–40** have the highest attrition rate.
-- **Overtime workers** are significantly more likely to leave.
-- **Sales and R&D departments** show lower job satisfaction compared to HR.
-- A large portion of employees **leave within the first 2–3 years**, suggesting onboarding gaps.
-- **Higher income** doesn't always correlate with higher retention — culture and satisfaction matter more.
-
----
-
-## 🧾 Conclusion
-
-This dashboard helps HR professionals and decision-makers:
-
-- Understand attrition patterns
-- Identify high-risk employee segments
-- Formulate data-driven employee retention strategies
-- Communicate findings through impactful visuals
-
----
-
-## 📌 Future Enhancements
-
-- Connect to live HR databases
-- Use Power BI’s AutoML to predict attrition likelihood
-- Build HR scorecards for individual employees
-
----
-
-## 💬 Feedback
-
-Feel free to fork this repo, use the dashboard, or suggest improvements via issues or pull requests.
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### Data Preparation
 - Removed duplicates, ensured clean column headers
@@ -117,6 +73,54 @@ DIVIDE(
   COUNTROWS(EmployeeData),
   0
 ).
+```
+---
+## Dashboard Visualizations
+
+The Power BI dashboard contains:
+
+- **KPI Cards**: Attrition Rate, Average Years at Company
+- **Bar Charts**: Attrition by Department, Job Satisfaction by Department
+- **Pie Chart**: Overtime vs Attrition Distribution
+- **Stacked Bar**: Age Group vs Attrition
+- **Line Chart**: Monthly Income Trend across Job Roles
+- **Table View**: Selected Employee Details
+
+---
+
+## Insights
+
+- **Employees aged 31–40** have the highest attrition rate.
+- **Overtime workers** are significantly more likely to leave.
+- **Sales and R&D departments** show lower job satisfaction compared to HR.
+- A large portion of employees **leave within the first 2–3 years**, suggesting onboarding gaps.
+- **Higher income** doesn't always correlate with higher retention — culture and satisfaction matter more.
+
+---
+
+## Conclusion
+
+This dashboard helps HR professionals and decision-makers:
+
+- Understand attrition patterns
+- Identify high-risk employee segments
+- Formulate data-driven employee retention strategies
+- Communicate findings through impactful visuals
+
+---
+
+## Future Enhancements
+
+- Connect to live HR databases
+- Use Power BI’s AutoML to predict attrition likelihood
+- Build HR scorecards for individual employees
+
+---
+
+## Feedback
+
+Feel free to fork this repo, use the dashboard, or suggest improvements via issues or pull requests.
+---
 
 
 
