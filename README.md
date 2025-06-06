@@ -55,25 +55,6 @@ The dataset includes various employee attributes such as:
 | Job Role | Position held |
 
 ---
-
-## 🔍 Exploratory Data Analysis (EDA)
-
-### Data Preparation
-- Removed duplicates, ensured clean column headers
-- Checked for missing values
-- Added **Age Group** using a calculated column
-
-### DAX Measures
-```dax
-Attrition Count = CALCULATE(COUNTROWS(EmployeeData), EmployeeData[Attrition] = "Yes")
-
-Attrition Rate = 
-DIVIDE(
-  CALCULATE(COUNTROWS(EmployeeData), EmployeeData[Attrition] = "Yes"),
-  COUNTROWS(EmployeeData),
-  0
-)
-
 ## 📈 Dashboard Visualizations
 
 The Power BI dashboard contains:
@@ -119,3 +100,23 @@ This dashboard helps HR professionals and decision-makers:
 ## 💬 Feedback
 
 Feel free to fork this repo, use the dashboard, or suggest improvements via issues or pull requests.
+## 🔍 Exploratory Data Analysis (EDA)
+
+### Data Preparation
+- Removed duplicates, ensured clean column headers
+- Checked for missing values
+- Added **Age Group** using a calculated column
+
+### DAX Measures
+```dax
+Attrition Count = CALCULATE(COUNTROWS(EmployeeData), EmployeeData[Attrition] = "Yes")
+
+Attrition Rate = 
+DIVIDE(
+  CALCULATE(COUNTROWS(EmployeeData), EmployeeData[Attrition] = "Yes"),
+  COUNTROWS(EmployeeData),
+  0
+).
+
+
+
