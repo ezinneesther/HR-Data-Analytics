@@ -95,12 +95,6 @@ This dashboard helps HR professionals and decision-makers:
 - Formulate data-driven employee retention strategies
 - Communicate findings through impactful visuals
 
-## Future Enhancements
-
-- Connect to live HR databases
-- Use Power BI’s AutoML to predict attrition likelihood
-- Build HR scorecards for individual employee
-
 ## Feedback
 
 Feel free to fork this repo, use the dashboard, or suggest improvements via issues or pull requests.
