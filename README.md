@@ -1,4 +1,5 @@
 # HR Analytics Dashboard – Power BI Project
+![](IMAGE.jpg) 
 
 ## Overview
 
