@@ -5,8 +5,6 @@
 
 This project explores employee attrition and engagement trends using an HR dataset. It leverages Power BI for interactive visualization and storytelling. The core objective is to **identify factors that influence employee turnover** and to provide actionable insights for HR departments.
 
----
-
 ## Problem Statement
 
 Employee attrition is a critical concern in any organization. High turnover rates lead to:
@@ -16,8 +14,6 @@ Employee attrition is a critical concern in any organization. High turnover rate
 - Loss of institutional knowledge
 
 However, many organizations struggle to understand **why** employees leave. The lack of visibility into employee behavior, satisfaction, and engagement metrics often hinders proactive interventions.
-
----
 
 ## ✅ Solution
 
@@ -86,8 +82,7 @@ The Power BI dashboard contains:
 - **Stacked Bar**: Age Group vs Attrition
 - **Line Chart**: Monthly Income Trend across Job Roles
 - **Table View**: Selected Employee Details
-
----
+![](HR_DASHBORAD.png)
 
 ## Insights
 
@@ -96,8 +91,6 @@ The Power BI dashboard contains:
 - **Sales and R&D departments** show lower job satisfaction compared to HR.
 - A large portion of employees **leave within the first 2–3 years**, suggesting onboarding gaps.
 - **Higher income** doesn't always correlate with higher retention — culture and satisfaction matter more.
-
----
 
 ## Conclusion
 
@@ -108,20 +101,15 @@ This dashboard helps HR professionals and decision-makers:
 - Formulate data-driven employee retention strategies
 - Communicate findings through impactful visuals
 
----
-
 ## Future Enhancements
 
 - Connect to live HR databases
 - Use Power BI’s AutoML to predict attrition likelihood
-- Build HR scorecards for individual employees
-
----
+- Build HR scorecards for individual employee
 
 ## Feedback
 
 Feel free to fork this repo, use the dashboard, or suggest improvements via issues or pull requests.
----
 
 
 
